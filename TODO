@@ -1,0 +1,5 @@
+- A lot more minification needs to happen. There's tons of scrap animation garbage from the original template that I haven't removed yet.
+- Get SVGs for all logos and images as possible - this will improve how the site looks on scaling-required resolutions and save render time
+- Add actual content
+
+**Please submit a pull request to make any changes.**
