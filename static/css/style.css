@@ -1412,8 +1412,8 @@ body.gray-bg {
   background-color: #cc181e;
 }
 
-.socials li a.drib {
-  background-color: #ea4c89;
+.socials li a.github {
+  background-color: lightgray;
 }
 
 /**newsletter**/
