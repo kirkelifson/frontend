@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(../../assets/images/pattern.png);
+  /*background-image: url(../../assets/images/pattern.png);*/
   background-repeat: repeat;
 }
 
@@ -329,10 +329,9 @@ button {
 }
 .btn-theme-border:hover, .btn-theme-border:focus {
   border-color: #3288C4;
-  background-color: #3288C4;
+  background-color: #3288C4; 
   color: #fff;
 }
-
 .btn-dark-border {
   color: #333;
   border: 1px solid #333;
@@ -342,7 +341,6 @@ button {
   background-color: #333;
   color: #fff;
 }
-
 .btn-light-border {
   color: #fff;
   background-color: transparent;
@@ -353,14 +351,15 @@ button {
   background-color: #fff;
   color: #3288C4;
 }
-
 .btn-theme-bg {
   color: #fff;
   background-color: #3288C4;
   border: 1px solid transparent;
 }
 .btn-theme-bg:hover, .btn-theme-bg:focus {
-  background-color: transparent;
+  /**TODO: Reimplement when contact is added
+    **background-color: transparent;**/
+  background-color: darkgray;
   color: #3288C4;
   border-color: #3288C4;
 }
@@ -499,7 +498,7 @@ FUN FACTS
 
 /***************Quote****************/
 .quote {
-  background: url(../../assets/images/bg-2.jpg) no-repeat center center;
+  /*background: url(../../assets/images/bg-2.jpg) no-repeat center center;*/
   background-size: cover;
   background-position: 50% 0;
   height: auto;
@@ -1704,7 +1703,7 @@ LANDING PAGE index.html
   padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
-  background: url(../../assets/images/bg-2.jpg) no-repeat;
+  /*background: url(../../assets/images/bg-2.jpg) no-repeat;*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1813,4 +1812,39 @@ LANDING PAGE index.html
 
 .cube-masonry .cbp-l-grid-masonry-projects-title {
   color: #3288C4;
+}
+
+/*FAQ*/
+#cback{
+padding:30px 60px;
+margin-bottom:80px;
+background:rgba(0,0,0,0.25);
+border-radius:8px;
+text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+border-bottom:1px solid rgba(255,255,255,0.4);
+box-shadow:inset 0 2px 2px 2px rgba(0,0,0,0.4);
+text-align:left;
+}
+
+.head-text{
+font-size: 48px;
+text-shadow:2px 2px 2px rgba(0,0,0,0.5);
+font-weight:bold;
+margin-bottom:30px;
+}
+#cback h2{margin-bottom:6px;cursor:pointer;}
+#cback h3{
+padding:10px 20px;
+margin-bottom:20px;font-weight:normal;
+background:rgba(0,0,0,0.25);
+border-radius:8px;
+border-bottom:1px solid rgba(255,255,255,0.4);
+box-shadow:inset 0 2px 2px 2px rgba(0,0,0,0.4);
+}
+#cback p{font-size:10px;}
+.submitbutton{
+border:none;
+padding: 4px 20px;
+font-size:12px;
+font-family:Lucida Sans Typewriter, Arial, sans-serif;
 }
