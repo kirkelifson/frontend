@@ -68,7 +68,7 @@
                     <ul class="nav navbar-nav navbar-right scroll-to">
                         <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#garbage">Garbage</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!--/.container -->
@@ -168,22 +168,41 @@
             </div>
         </div><!--fun facts end -->
         <!--Is this quote needed? -->
+        <section id="faq">
         <div class="quote parallax-1">
             <div class="container text-center">
                 <div class="col-sm-8 col-sm-offset-2 wow animated fadeIn" data-wow-delay=".2s">
-                    <p>
-                        " Websites promote you 24/7: No employee will do that. "
-                    </p>
-                    <h5>Paul Cookson</h5>
-                </div>
+                    <div id="wrapper">
+		              <div class="head-text">Momentum Mod FAQ</div>
+		                  <div id="cback" class="cback">
+			                 <p>
+				                <h2 class="clickme">Q: What is Momentum (or Momentum Mod)?</h2>
+				                    <h3 class="toggleme" style="display:none;">Momentum Mod is a free standalone
+                                        Source mod with Counter-Strike: Source physics dedicated to bhop and surfing while trying
+                                        to improve them and simultaneously making it easier to access <!--
+				                    -->and play (Offline (and online?) play as well as being cheaper than any other source <!--
+                                    -->game you'd have to buy to play either of these game modes.)</h3>
+				                <h2 class="clickme">Q: How much will the game cost?</h2>
+				                    <h3 class="toggleme" style="display:none;">Free.</h3>
+				                <h2 class="clickme">Q: When is Momentum Mod coming out?</h2>
+				                    <h3 class="toggleme" style="display:none;">The mod is currently being <!--
+				                    -->worked on with no realistic ETA in sight. We want to 
+                                        keep people informed on progress!</h3>
+			                 </p>
+		              </div>
+	           </div>  
+            </div>
             </div>
         </div><!--quote section end-->
+        </section>
+    <section id="contact">
         <div class="gray-cta">
             <div class="container text-center scroll-to">
                 <h2>Are you ready to start a conversation?</h2>
                 <a href="#contact" class="btn btn-lg btn-theme-bg">Get in touch</a>
             </div>
         </div><!--gray cta-->
+    </section>
         <section id="garbage" class="section-padding">
             <div class="team">
             <div class="container">
@@ -197,8 +216,8 @@
                     <div class="col-sm-6 col-md-3 margin-bottom30">
                         <div class="team-box wow animated fadeInLeft" data-wow-delay=".1s">
                             <img src="{{ url_for('static', filename='images/' 'team-2.jpg') }}" class="img-responsive" alt="">
-                            <h4>Some picture showing something</h4>
-                            <em>That's great!</em>
+                            <h4>Some pictures showing something</h4>
+                            <em>They are really great!</em>
                             <ul class="social list-inline">
                                 <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                                 <li><a href="#"><i class="ion-social-twitter"></i></a></li>
@@ -272,5 +291,7 @@
         <script src="{{ url_for('static', filename='js/' 'jquery.themepunch.revolution.js') }}" type="text/javascript"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/' 'jquery.flexslider-min.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/' 'parallax.min.js') }}"></script>
+        <!--momentum mod : faq-->
+        <script src="{{ url_for('static', filename='js/' 'faq.js') }}" type="text/javascript"></script>
     </body>
 </html>
